@@ -1,0 +1,195 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* PARA EL FONDO DE TODA LA PAGINA CON EL DEGRADADO */
+.bg-gradient-custom {
+    background: linear-gradient(to bottom, 
+        #88CCFF 0%,   
+        #D08BC6 25%,  
+        #F6458F 50%,  
+        #F89848 75%,  
+        #FFCC66 100%  
+    );
+    /* height: 100vh;  */
+    /* tipo de letra */
+   
+}
+
+/* Navbar: Paque el dropdown tenga la sombra negra al desplegar */
+.custom-dropdown{
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.custom-dropdown .dropdown-item {
+    color: white !important;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.2) !important; 
+}
+
+.bg-letraNav-custom{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e438c3 !important; /* cambia el color al pasar el ratón */
+    text-decoration: underline; 
+  }
+
+  .navbar-nav .nav-link.active {
+    color: #ffffff; 
+  }
+/* header y nav */
+.bg-header-custom{
+    position: fixed;
+    z-index: 1000;
+    transition: backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.4);
+}
+/* para tener espacio entre el nav y el carousel */
+.carousel-inner{
+    padding-top: 250px;
+}
+
+.bg-footer-custom {
+    font-family: Monospace;
+    z-index: 1000;
+    transition: backdrop-filter 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 0, 153, 0.2)); /* Degradado más claro de negro a rosa fucsia */
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+}
+
+.bg-boton-custom{
+    background-color: #e438c3;
+}
+
+/* MARQUEE */
+
+/* ESTILOS ENTRADAS */
+/* Estilos para personalizar las tarjetas de cada tipo de abono */
+
+.abono-card {
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.abono-card:hover {
+    transform: translateY(-10px);
+}
+
+/* colores personalizados para los bordes y los iconos */
+.abono-1 {
+    border-left: 5px solid #4CAF50;
+}
+
+.abono-2 {
+    border-left: 5px solid #FF5733;
+}
+
+.abono-3 {
+    border-left: 5px solid #F89848;
+}
+
+.abono-4 {
+    border-left: 5px solid #FFCC66;
+}
+
+.abono-5 {
+    border-left: 5px solid #D08BC6;
+}
+
+.abono-6 {
+    border-left: 5px solid #F6458F;
+}
+
+.abono-7 {
+    border-left: 5px solid #88CCFF;
+}
+
+/* Personalización de los iconos */
+.abono-1 .abono-icon {
+    color: #4CAF50; 
+}
+
+.abono-2 .abono-icon {
+    color: #FF5733;  
+}
+
+.abono-3 .abono-icon {
+    color: #F89848; 
+}
+
+.abono-4 .abono-icon {
+    color: #FFCC66; 
+}
+
+.abono-5 .abono-icon {
+    color: #D08BC6;  
+}
+
+.abono-6 .abono-icon {
+    color: #F6458F; 
+}
+
+.abono-7 .abono-icon {
+    color: #88CCFF;  
+}
+
+/* boton compra */
+.btn-success {
+    background-color: #e438c3;
+    border-color: #28a745;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* carousel ultimas mod, que cubra poco */
+
+ /* .carousel-item {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+}  */
+
+
